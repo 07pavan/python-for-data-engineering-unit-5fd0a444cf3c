@@ -1,18 +1,19 @@
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
 
+# Logs
+*.log
 
-
-
-
-
-
-# >>> eval8 (managed) >>>
-.vscode/
-# <<< eval8 (managed) Okay done <<<
-
-# >>> project guide (managed) >>>
+# Node.js
 node_modules/
 vendor/
-.venv/
-__pycache__/
-*.log
-# <<< project guide (managed) <<<
+
+# VS Code
+.vscode/
+
+# Project-specific rules
+```
